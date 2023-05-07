@@ -13,7 +13,7 @@ const Comments = () => {
             .then(value => value.data)
             .then(value => dispatch(commentActions.setAll(value)))
     }, [dispatch])
-    console.log(comments);
+
     return (
         <div>
             {
